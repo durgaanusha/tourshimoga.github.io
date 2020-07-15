@@ -1,0 +1,75 @@
+#wrapper{
+	margin:0 auto;
+	
+background-image: linear-gradient(to right top, #051937, #004269, #006e79, #00975a, #80b70d);
+	width:800px;
+	height:2200px;
+	border:10px solid black;
+	box-shadow: 0px 0px 10px;
+}
+
+p:first-letter{
+	text-transform: uppercase;
+	font-size: 35px;
+}
+#image{
+
+padding:0px 100px;
+}
+#kimage{
+
+padding:0px 100px;
+}
+#kuimage{
+
+padding:0px 100px;
+}
+#insta{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+
+
+
+}
+#face{
+	position:fixed;
+	right:0px;
+	bottom:55px;
+
+
+
+}
+@keyframes anime{
+	
+	  
+}
+div#face:hover{
+	transform :rotate(15deg);
+}
+div#insta:hover{
+	transform :rotate(15deg);
+
+}
+header{
+	margin:0 auto;
+	background: black;
+	width:820px;
+    height:50px;
+    background-position: center;
+    color:white;
+    white-space: pre;
+    font-variant: small-caps;
+
+	
+}
+footer{
+	margin:0 auto;
+	background: black;
+
+	color:white;
+	width:820px;
+    height:50px;
+    position:center;
+    white-space: pre;
+}
